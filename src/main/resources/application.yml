@@ -1,0 +1,17 @@
+server:
+  port: 8091
+spring:
+  datasource:
+    url: jdbc:h2:file:~/testdb;DB_CLOSE_ON_EXIT=FALSE;IFEXISTS=FALSE;DB_CLOSE_DELAY=-1;
+    driver-class-name: org.h2.Driver
+    data-username: sa
+    data-password:
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+      path: /h2-console
