@@ -1,4 +1,4 @@
-package io.viren.msscssm.nterceptors;
+package io.viren.msscssm.interceptors;
 
 import io.viren.msscssm.domain.Payment;
 import io.viren.msscssm.domain.PaymentEvent;

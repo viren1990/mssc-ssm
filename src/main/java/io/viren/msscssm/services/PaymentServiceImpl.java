@@ -3,7 +3,7 @@ package io.viren.msscssm.services;
 import io.viren.msscssm.domain.Payment;
 import io.viren.msscssm.domain.PaymentEvent;
 import io.viren.msscssm.domain.PaymentState;
-import io.viren.msscssm.nterceptors.PaymentStateChangeInterceptor;
+import io.viren.msscssm.interceptors.PaymentStateChangeInterceptor;
 import io.viren.msscssm.repository.PaymentRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.messaging.Message;

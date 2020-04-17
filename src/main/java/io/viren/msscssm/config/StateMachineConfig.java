@@ -2,7 +2,7 @@ package io.viren.msscssm.config;
 
 import io.viren.msscssm.domain.PaymentEvent;
 import io.viren.msscssm.domain.PaymentState;
-import io.viren.msscssm.nterceptors.PaymentStateChangeInterceptor;
+import io.viren.msscssm.interceptors.PaymentStateChangeInterceptor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.support.MessageBuilder;
