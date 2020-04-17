@@ -1,1 +1,1 @@
-# mssc-ssm
+# A Spring State Machine Demo
