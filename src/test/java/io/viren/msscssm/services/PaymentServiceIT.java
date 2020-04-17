@@ -20,7 +20,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 @SpringJUnitConfig
 @SpringBootTest
-public class PaymentServiceImplTest {
+public class PaymentServiceIT {
 
     @Autowired
     private PaymentService paymentService;
