@@ -42,4 +42,7 @@ jobs:
 
       - store_artifacts:
           path: ~/repo/target/mssc-ssm-0.0.1-SNAPSHOT.jar
-
+      - store_test_results:
+          path: ~/repo/target/surefire-reports
+      - store_test_results:
+          path: ~/repo/target/failsafe-reports
